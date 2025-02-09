@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>E-Portfolio</title>
+  </head>
+  <body>
+    <nav
+      class="breadcrumb is-centered has-bullet-separator"
+      aria-label="breadcrumbs"
+    >
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="">CV</a></li>
+      </ul>
+    </nav>
+
+    <header class="section aboutmi">
+      <div class="container">
+        <div class="columns is-vcentered">
+          <div class="column has-text-centered-mobile">
+            <h1 class="title">Rayster B. Cariño</h1>
+            <p class="subtitle">Aspiring <span id="dynamic-text"></span></p>
+          </div>
+          <div class="column has-text-centered">
+            <img
+              src="./src/pfp.jpg"
+              alt="Profile Picture"
+              class="profile-pic"
+            />
+          </div>
+        </div>
+        <div class="has-text-centered">
+          <a href="#about" class="arrow-link">
+            <i class="fas fa-chevron-down arrow-down"></i>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="about" class="section fade-in">
+        <h2 class="title">About Me</h2>
+        <div class="content">
+          <p>
+            I'm a passionate junior web developer with a strong foundation in
+            front-end development and a growing expertise in back-end
+            technologies. Recently graduated with a degree in
+            <span class="very-important">Computer Science</span>, I specialize
+            in creating web applications.
+          </p>
+          <p>
+            My journey in web development started with
+            <span class="very-important">HTML, CSS, and JavaScript</span>, and
+            has evolved to include modern frameworks and tools. I'm particularly
+            experienced with:
+          </p>
+          <ul>
+            <li>
+              Building responsive websites using
+              <span class="very-important">HTML5, CSS3, and JavaScript</span>
+            </li>
+            <li>Developing applications with modern frameworks</li>
+            <li>
+              Creating
+              <span class="not-important"
+                >clean, maintainable, and efficient</span
+              >
+              code
+            </li>
+          </ul>
+          <p>
+            I'm constantly learning and staying up-to-date with the latest web
+            technologies and best practices. Currently seeking opportunities to
+            contribute to innovative projects and grow as a developer.
+          </p>
+        </div>
+      </section>
+
+      <section id="projects" class="section fade-in">
+        <h2 class="title">Recent Projects</h2>
+        <div class="columns is-multiline">
+          <div class="column is-6">
+            <div class="box project">
+              <h3 class="title is-6">Ultimate Power Tycoon</h3>
+              <figure class="image is-4by3 mb-4">
+                <img
+                  src="./src/game.png"
+                  alt="Project 1"
+                  class="project-image has-ratio"
+                />
+              </figure>
+              <p class="project-date mb-2">March 1 2024 - April 16 2024</p>
+              <p class="project-description mb-4">
+                I created a Roblox tycoon game featuring 81 unique abilities and
+                3 different bosses. This project was developed in just 2 months
+                as my first step into Roblox game development, allowing me to
+                explore game design,game vfx, scripting, and mechanics within
+                the platform.
+              </p>
+              <button class="button is-primary">
+                <a
+                  href="https://www.roblox.com/games/16578614654/Ultimate-Power-Tycoon"
+                  >Check out</a
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section fade-in">
+        <h2 class="title">Technical Skills</h2>
+        <div class="columns is-multiline">
+          <div class="column is-3-desktop is-6-tablet">
+            <span class="icon-text">
+              <span class="icon has-text-warning">
+                <i class="fab fa-html5"></i>
+              </span>
+              <span>HTML</span>
+            </span>
+          </div>
+          <div class="column is-3-desktop is-6-tablet">
+            <span class="icon-text">
+              <span class="icon has-text-warning">
+                <i class="fab fa-js"></i>
+              </span>
+              <span>JavaScript</span>
+            </span>
+          </div>
+          <div class="column is-3-desktop is-6-tablet">
+            <span class="icon-text">
+              <span class="icon has-text-warning">
+                <i class="fab fa-css3-alt"></i>
+              </span>
+              <span>CSS</span>
+            </span>
+          </div>
+          <div class="column is-3-desktop is-6-tablet">
+            <span class="icon-text">
+              <span class="icon has-text-warning">
+                <i class="fab fa-microsoft"></i>
+              </span>
+              <span>C#</span>
+            </span>
+          </div>
+          <div class="column is-3-desktop is-6-tablet">
+            <span class="icon-text">
+              <span class="icon has-text-warning">
+                <i class="fas fa-code"></i>
+              </span>
+              <span>C++</span>
+            </span>
+          </div>
+          <div class="column is-3-desktop is-6-tablet">
+            <span class="icon-text">
+              <span class="icon has-text-warning">
+                <i class="fab fa-java"></i>
+              </span>
+              <span>Java</span>
+            </span>
+          </div>
+          <div class="column is-3-desktop is-6-tablet">
+            <span class="icon-text">
+              <span class="icon has-text-warning">
+                <i class="fab fa-js"></i>
+              </span>
+              <span>TypeScript</span>
+            </span>
+          </div>
+        </div>
+      </section>
+
+      <section id="tools" class="section fade-in">
+        <h2 class="title">Tools</h2>
+        <div class="columns is-multiline">
+          <div class="column is-3-desktop is-6-tablet">
+            <span class="icon-text">
+              <span class="icon has-text-warning">
+                <i class="fas fa-code"></i>
+              </span>
+              <span>VS Code</span>
+            </span>
+          </div>
+          <div class="column is-3-desktop is-6-tablet">
+            <span class="icon-text">
+              <span class="icon has-text-warning">
+                <i class="fas fa-cube"></i>
+              </span>
+              <span>Blender</span>
+            </span>
+          </div>
+          <div class="column is-3-desktop is-6-tablet">
+            <span class="icon-text">
+              <span class="icon has-text-warning">
+                <i class="fas fa-pencil-ruler"></i>
+              </span>
+              <span>Figma</span>
+            </span>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <footer id="contact" class="section fade-in">
+      <div class="container has-text-centered">
+        <h2 class="title">Contact Me</h2>
+        <p>
+          Email:
+          <a href="mailto:raystercarino@gmail.com">raystercarino@gmail.com</a>
+        </p>
+        <p>Phone: 09950139918</p>
+        <div class="social-icons">
+          <a href="https://github.com/rays-1" target="_blank" class="icon">
+            <i class="fab fa-github"></i>
+          </a>
+          <a
+            href="https://www.instagram.com/raystercarino/"
+            target="_blank"
+            class="icon"
+          >
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a
+            target="_blank"
+            class="icon"
+            href="https://www.linkedin.com/in/rayster-carino-929494212/"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a
+            target="_blank"
+            class="icon"
+            href="https://www.facebook.com/rayyyrayyymannn"
+          >
+            <i class="fab fa-facebook"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const texts = ["web developer", "game developer"];
+        const classes = ["dynamic-web", "dynamic-game"];
+        let index = 0;
+        let charIndex = 0;
+        const typingSpeed = 100;
+        const erasingSpeed = 100;
+        const delayBetweenTexts = 1000;
+        const dynamicText = document.getElementById("dynamic-text");
+
+        function type() {
+          dynamicText.className = classes[index];
+          if (charIndex < texts[index].length) {
+            dynamicText.textContent += texts[index].charAt(charIndex);
+            charIndex++;
+            setTimeout(type, typingSpeed);
+          } else {
+            setTimeout(erase, delayBetweenTexts);
+          }
+        }
+
+        function erase() {
+          if (charIndex > 0) {
+            dynamicText.textContent = texts[index].substring(0, charIndex - 1);
+            charIndex--;
+            setTimeout(erase, erasingSpeed);
+          } else {
+            index = (index + 1) % texts.length;
+            setTimeout(type, typingSpeed);
+          }
+        }
+
+        setTimeout(type, delayBetweenTexts);
+
+        const fadeInElements = document.querySelectorAll(".fade-in");
+
+        const handleScroll = () => {
+          fadeInElements.forEach((element) => {
+            const rect = element.getBoundingClientRect();
+            if (rect.top < window.innerHeight - 100 && rect.bottom > 100) {
+              element.classList.add("visible");
+            } else {
+              element.classList.remove("visible");
+            }
+          });
+        };
+
+        window.addEventListener("scroll", handleScroll);
+        handleScroll(); // Trigger the function on page load
+      });
+    </script>
+  </body>
+</html>
